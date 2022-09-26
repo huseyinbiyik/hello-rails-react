@@ -1,39 +1,26 @@
-## Moneye
+## hello-rails-react
 
-> A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
-
-## Live Demo
-[Heroku Link](https://moneye-app.herokuapp.com/)
-
-## Live Presentation
-[Watch My Presentation on Loom](https://www.loom.com/share/10d47905b9084e80ba5f057f7176c2a6)
+> Created to learn how React and Rails work together.
 
 ## Built With
 
 - Ruby
 - Ruby on Rails
+- React
 -  PostgreSQL
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-1- Copy this link `https://github.com/huseyinbiyik/moneye.git` <br>
+1- Copy this link `https://github.com/huseyinbiyik/hello-rails-react.git` <br>
 2- Get the directory that you want to clone the repository. <br>
 3- Open the command prompt in this directory. <br>
-4- Write `git clone https://github.com/huseyinbiyik/moneye.git` <br>
-5- Go to the repository folder in your command prompt `cd moneye`. <br>
-6- Go to command line and run `rails s`. <br>
+4- Write `git clone https://github.com/huseyinbiyik/hello-rails-react.git` <br>
+5- Go to the repository folder in your command prompt `cd hello-rails-react`. <br>
+6- You might need to install bundles with `bundle install` and npm dependencies with `npm i`
+6- Go to command line and run `./bin/dev` for the live server. <br>
 7- Run `rails db:create` to create database.
-
-To setup linters on your local environment, please follow these steps.
-
-1- Run `bundle install` <br>
-2- Run `rubocop .` for the errors
-
-To run the tests <br>
-
-Run `rspec` on terminal window
 
 ### Prerequisites
 
@@ -46,12 +33,6 @@ IDE(VSCode etc.), WSL(for Windows OS), for linters RuboCop
 - GitHub: [@huseyinbiyik](https://github.com/huseyinbiyik)
 - Twitter: [@huseyin__biyik](https://twitter.com/huseyin__biyik)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/huseyin-b%C4%B1y%C4%B1k/)
-
-
-## Attributions
-
-This web design was inspired by [Gregoire Vella](https://www.behance.net/gregoirevella)
-on [this idea](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=).
 
 ## 🤝 Contributing
 
