@@ -1,7 +1,15 @@
 import React from "react";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Greeting from "./Greeting";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Greeting />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
